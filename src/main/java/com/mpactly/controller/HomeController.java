@@ -25,7 +25,7 @@ public class HomeController
 	{
 		String response = null;
 		String filePath = reqVo.getFilePath();
-		System.err.println("FilePath: "+filePath);
+		System.err.println("FilePath1 : "+filePath);
 		GraphVO gvo = wekaService.analyseData(filePath);
 		
 		try {
